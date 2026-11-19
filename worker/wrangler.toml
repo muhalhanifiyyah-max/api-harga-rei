@@ -1,0 +1,7 @@
+name = "rajaemas-harga-api"
+main = "src/index.js"
+account_id = "0f419ab49d862cf273a002d9a88e97e7" # akun Rajaemasindonesia
+compatibility_date = "2026-11-01"
+
+# Domain sendiri. Cloudflare otomatis membuat DNS + sertifikat SSL-nya.
+routes = [{ pattern = "api-harga.rajaemasindonesia.co.id", custom_domain = true }]
